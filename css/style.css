@@ -1,0 +1,137 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+  color: rgb(218, 165, 32);
+  background: #333;
+}
+
+nav {
+  background: #000;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, 0.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/* my styles */
+
+.nav-menu li a {
+  box-sizing: border-box;
+  /* background: red; */
+  /* margin: 0.2rem 0.5rem 0.5rem 0.5rem; */
+  text-transform: uppercase;
+}
+
+.hide-side-nav {
+  display: none;
+}
+
+.sidenav {
+  background: rgba(255, 255, 255, 0.2);
+}
+.sidenav li {
+  background: darkgoldenrod;
+  border-bottom: 1px solid #333;
+}
+
+.sidenav li a {
+  text-transform: uppercase;
+}
+
+.nav-menu li:hover {
+  background: #333;
+}
+
+.nav-menu li:hover a,
+.sidenav li:hover a {
+  color: darkgoldenrod;
+}
+
+.process-img {
+  width: 100%;
+}
+
+.cards {
+  height: 100%;
+}
+
+.card {
+  background: #444;
+}
+
+#localization .card {
+  min-height: 450px;
+}
+
+#artisanal .card {
+  min-height: 350px;
+}
+
+#potential .card {
+  min-height: 450px;
+}
+
+img.logo {
+  margin-top: 0.8rem;
+  width: 200px;
+}
+
+.footer-copyright {
+  height: 6rem;
+}
+
+.materialize {
+  font-size: xx-small;
+}
